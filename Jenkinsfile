@@ -24,6 +24,7 @@ pipeline {
             sh '''
                 cat build/index.html
                 npm test
+            '''
         }
     }
 }
